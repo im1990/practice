@@ -1,1 +1,9 @@
-Hello Git
+＜修正点＞
+
+・下記の記述を削除（コメントアウト）し、output.innerHTML = "";　を追記
+        // output.innerHTML = `<br>Fizz ${fizz.value * 1}`;
+        // output.innerHTML = `<br>Buzz ${buzz.value * 1}`;
+
+・forループ内iのスタート値を変更
+　旧：i=2
+  新：i=1
