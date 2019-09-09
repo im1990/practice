@@ -3,6 +3,7 @@ const buzz = document.getElementById('buzz');
 const submit = document.getElementById('submit');
 const output = document.querySelector('.output');
 
+
 submit.addEventListener('click', function() {
 
     if(!isNaN(fizz.value) && !isNaN(buzz.value)){
